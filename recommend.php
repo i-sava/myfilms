@@ -22,7 +22,7 @@ function similarity_distance($matrix,$person1,$person2)
         }
     }
 
-    if($similar==0)
+    if(empty($similar))
     {
         return 0;
     }
@@ -45,6 +45,21 @@ function similarity_distance($matrix,$person1,$person2)
  */
 
 
+function getMatrixKNN($matrix, $person, $k)
+{
+    $user_KNN=getSimilar($matrix, $person, $k);
+    $result=array_intersect_key($matrix,$user_KNN);
+    $result[$person]=$matrix[$person];
+
+    return $result;
+}
+
+
+
+
+
+
+
 function getRecommendation($matrix, $person, $m)
 {
     $total=array();
@@ -57,7 +72,7 @@ function getRecommendation($matrix, $person, $m)
         {
             $sim=similarity_distance($matrix,$person,$otherPerson);
             $sim=round($sim,3);
-            var_dump($sim);
+            //var_dump($sim);
 
             foreach ($matrix[$otherPerson] as $key=>$value)
             {
@@ -88,7 +103,12 @@ function getRecommendation($matrix, $person, $m)
 
     foreach ($total as $key=>$value)
     {
-        $ranks[$key]= round(  $value/$simsums[$key], 3);
+        if($simsums[$key] != 0)
+        {
+            $ranks[$key]= round(  $value/$simsums[$key], 3);
+        }
+
+
     }
     //array_multisort($ranks,SORT_DESC);
 
@@ -98,10 +118,10 @@ function getRecommendation($matrix, $person, $m)
 
 
     echo '<br>';
-    print_r($recom_film);
+    print_r($ranks);
     echo '<br>';
 
-    return $ranks;
+    return $recom_film;
 
 }
 
@@ -119,10 +139,11 @@ function getSimilar($matrix, $person, $k)
             $sim=round($sim,3);
             $similarity[$otherPerson]=$sim;
         }
-        uasort($similarity, 'cmp');
-        $similarity_users = array_slice($similarity, 0, $k, true);
+
 
     }
+    uasort($similarity, 'cmp');
+    $similarity_users = array_slice($similarity, 0, $k, true);
     return $similarity_users;
 }
 

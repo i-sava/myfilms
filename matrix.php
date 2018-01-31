@@ -4,10 +4,10 @@ session_start();
 
 
 
-if( !($_SESSION['username'] == 'admin'))
-{
-    header("Location: login.php");//redirect to login page to secure the welcome page without login access.
-}
+//if( !($_SESSION['username'] == 'admin'))
+//{
+ //   header("Location: login.php");//redirect to login page to secure the welcome page without login access.
+//}
 
 
 $db = mysqli_connect('localhost', 'root', '', 'myfilms');
@@ -83,12 +83,21 @@ echo "</pre>";
 
 include("recommend.php");
 
-
-
-var_dump(getSimilar($matrix, "admin",3));
+var_dump(getSimilar($matrix, "admin",10));
 echo '<br>';
 
-var_dump(getRecommendation($matrix,"admin",2));
+
+
+echo "<pre>";
+
+print_r(getMatrixKNN($matrix, 'admin', 3));
+
+echo "</pre>";
+
+
+$matrix=getMatrixKNN($matrix, 'admin', 3);
+
+var_dump(getRecommendation($matrix,"admin",1));
 
 ?>
 
