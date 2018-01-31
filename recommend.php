@@ -79,9 +79,9 @@ function getRecommendation($matrix, $person)
          }
     }
 
-    print_r($total);
+    //print_r($total);
     echo '<br>';
-    print_r($simsums);
+    //print_r($simsums);
     echo '<br>';
 
     foreach ($total as $key=>$value)
