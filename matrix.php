@@ -4,10 +4,10 @@ session_start();
 
 
 
-//if( !($_SESSION['username'] == 'admin'))
-//{
- //   header("Location: login.php");//redirect to login page to secure the welcome page without login access.
-//}
+if( !($_SESSION['username'] == 'admin'))
+{
+    header("Location: login.php");//redirect to login page to secure the welcome page without login access.
+}
 
 
 $db = mysqli_connect('localhost', 'root', '', 'myfilms');

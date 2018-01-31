@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7c7da241-a749-4f1f-b2cb-e2157383d14e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matrix.php" afterPath="$PROJECT_DIR$/matrix.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile.php" afterPath="$PROJECT_DIR$/profile.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,15 +61,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1156">
-              <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
-                <marker date="1517428686505" expanded="true" signature="591:672" ph="UPDATE fav_g... " />
-                <marker date="1517428686505" expanded="true" signature="684:774" ph="INSERT INTO fav_genres... " />
-                <marker date="1517428686505" expanded="true" signature="789:828" ph="SELECT * FRO... fav_genres" />
+                <marker date="1517428859419" expanded="true" signature="591:672" ph="UPDATE fav_g... " />
+                <marker date="1517428859419" expanded="true" signature="684:774" ph="INSERT INTO fav_genres... " />
+                <marker date="1517428859419" expanded="true" signature="789:828" ph="SELECT * FRO... fav_genres" />
               </folding>
             </state>
           </provider>
@@ -84,19 +85,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matrix.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="matrix.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/matrix.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="97" column="40" lean-forward="false" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <marker date="1517426785564" expanded="true" signature="276:296" ph="SELECT * FRO... rating" />
-                <marker date="1517426785564" expanded="true" signature="379:582" ph="SELECT movie... movie" />
-                <marker date="1517426785564" expanded="true" signature="379:597" ph="SELECT movie... movie" />
-                <marker date="1517426785564" expanded="true" signature="379:631" ph="SELECT movie... movie" />
-                <marker date="1517426785564" expanded="true" signature="379:687" ph="SELECT movie... movie" />
-                <marker date="1517426785564" expanded="true" signature="633:670" ph="SELECT usern... users" />
-                <marker date="1517426785564" expanded="true" signature="633:671" ph="SELECT usern... users" />
+                <marker date="1517428859296" expanded="true" signature="268:288" ph="SELECT * FRO... rating" />
+                <marker date="1517428859296" expanded="true" signature="371:574" ph="SELECT movie... movie" />
+                <marker date="1517428859296" expanded="true" signature="371:589" ph="SELECT movie... movie" />
+                <marker date="1517428859296" expanded="true" signature="371:623" ph="SELECT movie... movie" />
+                <marker date="1517428859296" expanded="true" signature="371:679" ph="SELECT movie... movie" />
+                <marker date="1517428859296" expanded="true" signature="625:662" ph="SELECT usern... users" />
+                <marker date="1517428859296" expanded="true" signature="625:663" ph="SELECT usern... users" />
               </folding>
             </state>
           </provider>
@@ -135,8 +136,8 @@
         <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/detail_movie.php" />
         <option value="$PROJECT_DIR$/recommend.php" />
-        <option value="$PROJECT_DIR$/matrix.php" />
         <option value="$PROJECT_DIR$/profile.php" />
+        <option value="$PROJECT_DIR$/matrix.php" />
       </list>
     </option>
   </component>
@@ -294,12 +295,12 @@
       <workItem from="1517329847670" duration="11851000" />
       <workItem from="1517377760211" duration="8977000" />
       <workItem from="1517410042883" duration="9267000" />
-      <workItem from="1517419954242" duration="4500000" />
+      <workItem from="1517419954242" duration="4671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93024000" />
+    <option name="totallyTimeSpent" value="93195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -715,22 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matrix.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="97" column="40" lean-forward="false" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
-          <folding>
-            <marker date="1517426785564" expanded="true" signature="276:296" ph="SELECT * FRO... rating" />
-            <marker date="1517426785564" expanded="true" signature="379:582" ph="SELECT movie... movie" />
-            <marker date="1517426785564" expanded="true" signature="379:597" ph="SELECT movie... movie" />
-            <marker date="1517426785564" expanded="true" signature="379:631" ph="SELECT movie... movie" />
-            <marker date="1517426785564" expanded="true" signature="379:687" ph="SELECT movie... movie" />
-            <marker date="1517426785564" expanded="true" signature="633:670" ph="SELECT usern... users" />
-            <marker date="1517426785564" expanded="true" signature="633:671" ph="SELECT usern... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recommend.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-835">
@@ -742,11 +727,27 @@
     <entry file="file://$PROJECT_DIR$/profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
-          <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
-            <marker date="1517428686505" expanded="true" signature="591:672" ph="UPDATE fav_g... " />
-            <marker date="1517428686505" expanded="true" signature="684:774" ph="INSERT INTO fav_genres... " />
-            <marker date="1517428686505" expanded="true" signature="789:828" ph="SELECT * FRO... fav_genres" />
+            <marker date="1517428859419" expanded="true" signature="591:672" ph="UPDATE fav_g... " />
+            <marker date="1517428859419" expanded="true" signature="684:774" ph="INSERT INTO fav_genres... " />
+            <marker date="1517428859419" expanded="true" signature="789:828" ph="SELECT * FRO... fav_genres" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matrix.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1517428859296" expanded="true" signature="268:288" ph="SELECT * FRO... rating" />
+            <marker date="1517428859296" expanded="true" signature="371:574" ph="SELECT movie... movie" />
+            <marker date="1517428859296" expanded="true" signature="371:589" ph="SELECT movie... movie" />
+            <marker date="1517428859296" expanded="true" signature="371:623" ph="SELECT movie... movie" />
+            <marker date="1517428859296" expanded="true" signature="371:679" ph="SELECT movie... movie" />
+            <marker date="1517428859296" expanded="true" signature="625:662" ph="SELECT usern... users" />
+            <marker date="1517428859296" expanded="true" signature="625:663" ph="SELECT usern... users" />
           </folding>
         </state>
       </provider>

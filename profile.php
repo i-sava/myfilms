@@ -66,7 +66,7 @@ if (isset($_POST['fg'])) {
             <ul class="nav navbar-nav">
                 <li><a href="profile.php">User profile</a></li>
                 <li><a href="index.php">List Film</a></li>
-                
+
 				<li><a href="index.php?logout='1'">Logout</a></li>
             </ul>
     </div><!-- /.container-fluid -->
