@@ -1,0 +1,18 @@
+CREATE TABLE `fav_genres` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_user` int(11) NOT NULL,
+  `fg1` varchar(100) NOT NULL,
+  `fg2` varchar(100) NOT NULL,
+  `fg3` varchar(100) NOT NULL,
+    PRIMARY KEY (id_user)
+) 
+
+CREATE TABLE `rating` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_user` int(11) NOT NULL,
+  `id_movie` int(11) NOT NULL,
+  `score` int(2) NOT NULL,
+    PRIMARY KEY (id)
+) 
+
+<td class="text-center"><a href="edit_user.php?id_movie=<?php echo $id_movie ?> & title=<?php echo $title;  ?>"><button class="btn btn-info">Edit</button></a></td>
