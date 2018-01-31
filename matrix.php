@@ -83,7 +83,12 @@ echo "</pre>";
 
 include("recommend.php");
 
-var_dump(getRecommendation($matrix,"admin"));
+
+
+var_dump(getSimilar($matrix, "admin",3));
+echo '<br>';
+
+var_dump(getRecommendation($matrix,"admin",2));
 
 ?>
 
