@@ -12,12 +12,13 @@ body {
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
-  font-size: 1.3em;
+    font-size: 1.3em;
 }
 
+
+
+
 .header {
-
-
   color: white;
   background: #5F9EA0;
   text-align: center;
@@ -73,4 +74,9 @@ form, .content {
   background: #dff0d8; 
   border: 1px solid #3c763d;
   margin-bottom: 20px;
+}
+
+
+.result{
+     width: 70%;
 }

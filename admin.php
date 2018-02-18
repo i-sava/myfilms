@@ -38,7 +38,7 @@ if( !($_SESSION['username'] == 'admin'))
                 <li><a href="add_user.php">Add user</a></li>
                 <li><a href="add_film.php">Add film</a></li>
                 <li><a href="index.php">List Film</a></li>
-                <li><a href="matrix.php">Matrix Score</a></li>
+                <li><a href="matrix.php">System Recommendation</a></li>
 				<li><a href="index.php?logout='1'">Logout</a></li>
             </ul>
     </div><!-- /.container-fluid -->

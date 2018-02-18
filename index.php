@@ -19,6 +19,15 @@ session_start();
 	<title>MyFilms</title>
     <link rel="stylesheet" href="bootstrap\css\bootstrap.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip({
+                placement : 'right'
+            });
+        });
+    </script>
 </head>
 <body>
 
@@ -50,6 +59,7 @@ session_start();
         <div class="container-fluid">
             <ul class="nav navbar-nav">
                 <li><a href="profile.php">User profile</a></li>
+                <li><a href="recommend_for_user.php">Recommendation for you</a></li>
                 <li><a href="index.php?logout='1'">Logout</a></li>
             </ul>
         </div><!-- /.container-fluid -->
@@ -69,7 +79,7 @@ session_start();
         <th class="text-center">title (year)</th>
         <th class="text-center">genres</th>
         <th class="text-center"></th>
-        <th class="text-center">Average Rating</th>
+        <th class="text-center"  data-toggle="tooltip" title="Average rating of film is the sum of the scores from users divided by the total number of users which rated this film.">Average Rating</th>
 
     </tr>
     </thead>
@@ -98,7 +108,7 @@ session_start();
             <td class="text-center"><?php echo $title;  ?></td>
             <td class="text-center"><?php echo $genres;  ?></td>
             <td class="text-center"><a  href="detail_movie.php?id_movie=<?php echo $id_movie ?> & title=<?php echo $title;  ?>"><button class="btn btn-info">Rate</button></a></td>
-            <td class="text-center"><?php echo $avg;  ?></td>
+            <td class="text-center" data-toggle="tooltip" title="Average rating of film is the sum of the scores from users divided by the total number of users which rated this film."><?php echo $avg;  ?></td>
             
 
         </tr>
@@ -162,6 +172,7 @@ session_start();
 </table>
 
 
-		
+
+
 </body>
 </html>

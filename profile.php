@@ -66,7 +66,7 @@ if (isset($_POST['fg'])) {
             <ul class="nav navbar-nav">
                 <li><a href="profile.php">User profile</a></li>
                 <li><a href="index.php">List Film</a></li>
-
+                <li><a href="recommend_for_user.php">Recommendation for you</a></li>
 				<li><a href="index.php?logout='1'">Logout</a></li>
             </ul>
     </div><!-- /.container-fluid -->
@@ -79,31 +79,31 @@ if (isset($_POST['fg'])) {
     <div class="input-group">
         <label>Your Favourite Genres 1</label>
         <select name="fg1">
-			<option value="Maroon">Maroon</option>
-			<option value="Green">Green</option>
-			<option value="Yellow">Yellow</option>
-			<option value="Blue">Blue</option>
-			<option value="Red">Red</option>
+			<option value="Maroon">1</option>
+			<option value="Green">2</option>
+			<option value="Yellow">3</option>
+			<option value="Blue">4</option>
+			<option value="Red">5</option>
 		</select>
     </div>
 	<div class="input-group">
         <label>Your Favourite Genres 2</label>
         <select name="fg2">
-			<option value="Maroon">Maroon</option>
-			<option value="Green">Green</option>
-			<option value="Yellow">Yellow</option>
-			<option value="Blue">Blue</option>
-			<option value="Red">Red</option>
+			<option value="Maroon">1</option>
+			<option value="Green">2</option>
+			<option value="Yellow">3</option>
+			<option value="Blue">4</option>
+			<option value="Red">5</option>
 		</select>
     </div>
 	<div class="input-group">
         <label>Your Favourite Genres 3</label>
         <select name="fg3">
-			<option value="Maroon">Maroon</option>
-			<option value="Green">Green</option>
-			<option value="Yellow">Yellow</option>
-			<option value="Blue">Blue</option>
-			<option value="Red">Red</option>
+			<option value="Maroon">1</option>
+			<option value="Green">2</option>
+			<option value="Yellow">3</option>
+			<option value="Blue">4</option>
+			<option value="Red">5</option>
 		</select>
     </div>
     <div class="input-group">

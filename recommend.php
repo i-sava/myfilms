@@ -116,10 +116,22 @@ function getRecommendation($matrix, $person, $m)
 
     $recom_film = array_slice($ranks, 0, $m, true);
 
+    echo '<table class="table table-bordered table-striped">';
+        echo '<thead class="text-danger">';
+        echo '<th class="text-uppercase text-center"> Title film  </th>' .  '<th class="text-uppercase text-center"> Predicted score </th>';
+        echo '</thead>';
+        foreach ($recom_film as $film=>$value) {
+            echo '<tr>';
+            echo '<td class="text-uppercase text-center">' . $film . '</td>' .  '<td class="text-uppercase text-center">' . $value . '</td>';
+            echo '</tr>';
+        }
+
+    echo '</table>';
 
     echo '<br>';
-    print_r($ranks);
+    //print_r($recom_film);
     echo '<br>';
+
 
     return $recom_film;
 
